@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portifolios",
+  "info": {
+    "singularName": "portifolio",
+    "pluralName": "portifolios",
+    "displayName": "Portifolio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.menu"
+    },
+    "Section": {
+      "type": "dynamiczone",
+      "components": [
+        "section.presentation-section",
+        "section.projects-section",
+        "section.section",
+        "section.skills-section"
+      ]
+    },
+    "Footer": {
+      "type": "text"
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

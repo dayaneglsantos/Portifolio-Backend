@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_section_projects_sections",
+  "info": {
+    "displayName": "Projects_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "project": {
+      "displayName": "project",
+      "type": "component",
+      "repeatable": true,
+      "component": "section.project",
+      "required": true
+    }
+  }
+}

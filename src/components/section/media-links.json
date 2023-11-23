@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section_media_links",
+  "info": {
+    "displayName": "media_links",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "media_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

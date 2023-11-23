@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_skills_sections",
+  "info": {
+    "displayName": "Skills_section"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

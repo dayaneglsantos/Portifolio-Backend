@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_section_projects",
+  "info": {
+    "displayName": "project",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "project_img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "project_title": {
+      "type": "string",
+      "required": true
+    },
+    "project_description": {
+      "type": "text",
+      "required": true
+    },
+    "repository_url": {
+      "type": "string",
+      "required": true
+    },
+    "site_url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

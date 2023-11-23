@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_section_sections",
+  "info": {
+    "displayName": "Initial_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name_img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "media_links": {
+      "displayName": "media_links",
+      "type": "component",
+      "repeatable": true,
+      "component": "section.media-links",
+      "required": true
+    },
+    "main_img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

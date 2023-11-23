@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_section_presentation_sections",
+  "info": {
+    "displayName": "presentation_section"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string",
+      "required": true
+    },
+    "profile_img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "presentation_text": {
+      "type": "text",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
