@@ -43,6 +43,7 @@ export interface SectionPresentationSection extends Schema.Component {
   collectionName: 'components_section_presentation_sections';
   info: {
     displayName: 'presentation_section';
+    description: '';
   };
   attributes: {
     section_title: Attribute.String & Attribute.Required;
