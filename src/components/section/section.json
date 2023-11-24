@@ -28,6 +28,10 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "section_title": {
+      "type": "string",
+      "required": true
     }
   }
 }

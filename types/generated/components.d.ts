@@ -76,6 +76,7 @@ export interface SectionProjectsSection extends Schema.Component {
   };
   attributes: {
     project: Attribute.Component<'section.project', true> & Attribute.Required;
+    section_title: Attribute.String & Attribute.Required;
   };
 }
 
@@ -90,6 +91,7 @@ export interface SectionSection extends Schema.Component {
     media_links: Attribute.Component<'section.media-links', true> &
       Attribute.Required;
     main_img: Attribute.Media & Attribute.Required;
+    section_title: Attribute.String & Attribute.Required;
   };
 }
 

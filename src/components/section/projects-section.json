@@ -12,6 +12,10 @@
       "repeatable": true,
       "component": "section.project",
       "required": true
+    },
+    "section_title": {
+      "type": "string",
+      "required": true
     }
   }
 }
