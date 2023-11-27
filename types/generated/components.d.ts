@@ -36,6 +36,8 @@ export interface SectionMediaLinks extends Schema.Component {
   attributes: {
     url: Attribute.String & Attribute.Required;
     media_logo: Attribute.Media & Attribute.Required;
+    media_name: Attribute.String & Attribute.Required;
+    url_color: Attribute.Media & Attribute.Required;
   };
 }
 

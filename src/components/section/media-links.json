@@ -17,6 +17,18 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "media_name": {
+      "type": "string",
+      "required": true
+    },
+    "url_color": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
