@@ -32,6 +32,10 @@
     "section_title": {
       "type": "string",
       "required": true
+    },
+    "section_id": {
+      "type": "string",
+      "required": true
     }
   }
 }
