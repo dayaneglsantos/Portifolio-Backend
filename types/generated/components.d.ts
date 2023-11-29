@@ -120,6 +120,7 @@ export interface SectionSkillsSection extends Schema.Component {
   attributes: {
     section_title: Attribute.String & Attribute.Required;
     skill: Attribute.Component<'section.skill', true> & Attribute.Required;
+    section_id: Attribute.String & Attribute.Required;
   };
 }
 
