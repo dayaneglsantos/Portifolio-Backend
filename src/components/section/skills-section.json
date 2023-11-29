@@ -1,7 +1,8 @@
 {
   "collectionName": "components_section_skills_sections",
   "info": {
-    "displayName": "Skills_section"
+    "displayName": "Skills_section",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,12 +10,11 @@
       "type": "string",
       "required": true
     },
-    "logo": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true,
+    "skill": {
+      "displayName": "skill",
+      "type": "component",
+      "repeatable": true,
+      "component": "section.skill",
       "required": true
     }
   }

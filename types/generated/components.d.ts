@@ -100,14 +100,26 @@ export interface SectionSection extends Schema.Component {
   };
 }
 
+export interface SectionSkill extends Schema.Component {
+  collectionName: 'components_section_skills';
+  info: {
+    displayName: 'skill';
+  };
+  attributes: {
+    skill_image: Attribute.Media & Attribute.Required;
+    skill_name: Attribute.String & Attribute.Required;
+  };
+}
+
 export interface SectionSkillsSection extends Schema.Component {
   collectionName: 'components_section_skills_sections';
   info: {
     displayName: 'Skills_section';
+    description: '';
   };
   attributes: {
     section_title: Attribute.String & Attribute.Required;
-    logo: Attribute.Media & Attribute.Required;
+    skill: Attribute.Component<'section.skill', true> & Attribute.Required;
   };
 }
 
@@ -121,6 +133,7 @@ declare module '@strapi/types' {
       'section.project': SectionProject;
       'section.projects-section': SectionProjectsSection;
       'section.section': SectionSection;
+      'section.skill': SectionSkill;
       'section.skills-section': SectionSkillsSection;
     }
   }
