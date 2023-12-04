@@ -68,6 +68,9 @@ export interface SectionProject extends Schema.Component {
     project_description: Attribute.Text & Attribute.Required;
     repository_url: Attribute.String & Attribute.Required;
     site_url: Attribute.String & Attribute.Required;
+    image_on_left: Attribute.Boolean &
+      Attribute.Required &
+      Attribute.DefaultTo<true>;
   };
 }
 

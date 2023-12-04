@@ -29,6 +29,11 @@
     "site_url": {
       "type": "string",
       "required": true
+    },
+    "image_on_left": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
